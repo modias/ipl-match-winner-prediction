@@ -51,4 +51,4 @@ Each bar shows how much the model's ROC-AUC drops when that feature is randomly 
 - `figures/`: saved charts
 
 ## AI Disclosure
-I used Claude (Anthropic, Claude Opus 5.5) to help find the dataset, brainstorm the research question and modeling approach, debug and explain my Python code, find research sources, and draft and edit written sections of the notebook and README. I reviewed, ran, and edited all code and text and verified all results myself.
+I used Claude (Anthropic, Claude Opus 5.5) to help find the dataset, debug my Python code, and reword and edit my written explanations in the notebook markdown and README file. I reviewed, ran, and verified all code and results myself. 
