@@ -39,16 +39,5 @@ This grid compares the model's predictions (columns) with what actually happened
 
 Each bar shows how much the model's ROC-AUC drops when that feature is randomly shuffled. A bigger positive bar means the model relied on that feature more. The black lines show the uncertainty. Every line crosses zero, so no feature reliably helped. Head-to-head and form differences were slightly negative, meaning patterns from older seasons did not hold in 2023–2024.
 
-## How to Run
-1. Clone this repository.
-2. Install requirements: `pip install pandas numpy matplotlib scikit-learn`
-3. Open `ipl_match_prediction.ipynb` and click **Run All**.
-
-## Repository Structure
-- `ipl_match_prediction.ipynb`: full analysis notebook
-- `ipl_match_prediction.html`: exported version of the notebook
-- `Dataset/`: `matches.csv` from Kaggle
-- `figures/`: saved charts
-
 ## AI Disclosure
 I used Claude (Anthropic, Claude Opus 5.5) to help find the dataset, debug my Python code, and reword and edit my written explanations in the notebook markdown and README file. I reviewed, ran, and verified all code and results myself. 
