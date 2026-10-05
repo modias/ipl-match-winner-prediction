@@ -37,7 +37,16 @@ This grid compares the model's predictions (columns) with what actually happened
 ### Permutation Feature Importance
 ![Feature importance](figures/feature_importance.png)
 
-Each bar shows how much the model's ROC-AUC drops when that feature is randomly shuffled. A bigger positive bar means the model relied on that feature more. The black lines show the uncertainty. Every line crosses zero, so no feature reliably helped. Head-to-head and form differences were slightly negative, meaning patterns from older seasons did not hold in 2023–2024.
+Each bar shows how much the model's ROC-AUC drops when that feature is randomly shuffled. A bigger positive bar means the model relied on that feature more. The black lines show the uncertainty. Every line crosses zero, so no feature reliably helped. Head-to-head and form differences were slightly negative, meaning patterns from older seasons did not hold in 2023–2024. 
+
+### References
+Lal, A., Willis, D., Sood, G., & Acharya, A. (2023). Fairly random: The effect of winning the toss on winning the match. *Journal of Sports Analytics*. https://science.ecosyste.ms/projects/30509
+
+Morley, B., & Thomas, D. (2005). An investigation of home advantage and other factors affecting outcomes in English one-day cricket matches. *Journal of Sports Sciences, 23*(3), 261–268. https://pubmed.ncbi.nlm.nih.gov/15966344/
+
+Srikantaiah, K. C., Khetan, A., Kumar, B., Tolani, D., & Patel, H. (2021). Prediction of IPL match outcome using machine learning techniques. In *Proceedings of the 3rd International Conference on Integrated Intelligent Computing Communication & Security*. Atlantis Press. https://doi.org/10.2991/ahis.k.210913.049
+
+Patrick B. (2024). *IPL complete dataset (2008–2024)* [Data set]. Kaggle. https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
 
 ## AI Disclosure
 I used Claude (Anthropic, Claude Opus 5.5) to help find the dataset, debug my Python code, and reword and edit my written explanations in the notebook markdown and README file. I reviewed, ran, and verified all code and results myself. 
